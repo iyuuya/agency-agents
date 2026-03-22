@@ -7,7 +7,7 @@
 # integration files after adding or modifying agents.
 #
 # Usage:
-#   ./scripts/convert.sh [--tool <name>] [--out <dir>] [--parallel] [--jobs N] [--help]
+#   ./scripts/convert.sh [--tool <name>] [--lang <en|ja>] [--out <dir>] [--parallel] [--jobs N] [--help]
 #
 # Tools:
 #   antigravity  — Antigravity skill files (~/.gemini/antigravity/skills/)
@@ -23,6 +23,8 @@
 # Output is written to integrations/<tool>/ relative to the repo root.
 # This script never touches user config dirs — see install.sh for that.
 #
+#   --lang en|ja     Language of agents to convert: en (default) or ja.
+#                    ja reads from ja/ and outputs to the same integrations/ dirs.
 #   --parallel       When tool is 'all', run independent tools in parallel (output order may vary).
 #   --jobs N         Max parallel jobs when using --parallel (default: nproc or 4).
 
@@ -60,10 +62,11 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 OUT_DIR="$REPO_ROOT/integrations"
 TODAY="$(date +%Y-%m-%d)"
 
-AGENT_DIRS=(
+BASE_DIRS=(
   academic design engineering game-development marketing paid-media sales product project-management
   testing support spatial-computing specialized
 )
+AGENT_DIRS=("${BASE_DIRS[@]}")
 
 # --- Usage ---
 usage() {
@@ -485,6 +488,7 @@ run_conversions() {
 
 main() {
   local tool="all"
+  local lang="en"
   local use_parallel=false
   local parallel_jobs
   parallel_jobs="$(parallel_jobs_default)"
@@ -492,6 +496,7 @@ main() {
   while [[ $# -gt 0 ]]; do
     case "$1" in
       --tool)     tool="${2:?'--tool requires a value'}"; shift 2 ;;
+      --lang)     lang="${2:?'--lang requires a value'}"; shift 2 ;;
       --out)      OUT_DIR="${2:?'--out requires a value'}"; shift 2 ;;
       --parallel) use_parallel=true; shift ;;
       --jobs)     parallel_jobs="${2:?'--jobs requires a value'}"; shift 2 ;;
@@ -499,6 +504,14 @@ main() {
       *)          error "Unknown option: $1"; usage ;;
     esac
   done
+
+  if [[ "$lang" == "ja" ]]; then
+    AGENT_DIRS=()
+    for d in "${BASE_DIRS[@]}"; do AGENT_DIRS+=("ja/$d"); done
+  elif [[ "$lang" != "en" ]]; then
+    error "Unknown lang '$lang'. Valid: en ja"
+    exit 1
+  fi
 
   local valid_tools=("antigravity" "gemini-cli" "opencode" "cursor" "aider" "windsurf" "openclaw" "qwen" "all")
   local valid=false
@@ -512,6 +525,7 @@ main() {
   echo "  Repo:   $REPO_ROOT"
   echo "  Output: $OUT_DIR"
   echo "  Tool:   $tool"
+  echo "  Lang:   $lang"
   echo "  Date:   $TODAY"
   if $use_parallel && [[ "$tool" == "all" ]]; then
     info "Parallel mode: output buffered so each tool's output stays together."

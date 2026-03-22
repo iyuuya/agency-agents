@@ -7,7 +7,7 @@
 # is missing or stale.
 #
 # Usage:
-#   ./scripts/install.sh [--tool <name>] [--interactive] [--no-interactive] [--parallel] [--jobs N] [--help]
+#   ./scripts/install.sh [--tool <name>] [--lang <en|ja>] [--interactive] [--no-interactive] [--parallel] [--jobs N] [--help]
 #
 # Tools:
 #   claude-code  -- Copy agents to ~/.claude/agents/
@@ -24,6 +24,8 @@
 #
 # Flags:
 #   --tool <name>     Install only the specified tool
+#   --lang en|ja      Language of agents to install: en (default) or ja.
+#                     ja installs from ja/ source dirs (claude-code/copilot) or integrations/ (others, run convert.sh --lang ja first).
 #   --interactive     Show interactive selector (default when run in a terminal)
 #   --no-interactive  Skip interactive selector, install all detected tools
 #   --parallel        Run install for each selected tool in parallel (output order may vary)
@@ -102,6 +104,11 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 INTEGRATIONS="$REPO_ROOT/integrations"
 
 ALL_TOOLS=(claude-code copilot antigravity gemini-cli opencode openclaw cursor aider windsurf qwen)
+
+BASE_AGENT_DIRS=(academic design engineering game-development marketing paid-media sales product project-management \
+                 testing support spatial-computing specialized)
+# Populated in main() based on --lang
+AGENT_SOURCE_DIRS=("${BASE_AGENT_DIRS[@]}")
 
 # ---------------------------------------------------------------------------
 # Usage
@@ -298,8 +305,7 @@ install_claude_code() {
   local count=0
   mkdir -p "$dest"
   local dir f first_line
-  for dir in academic design engineering game-development marketing paid-media sales product project-management \
-              testing support spatial-computing specialized; do
+  for dir in "${AGENT_SOURCE_DIRS[@]}"; do
     [[ -d "$REPO_ROOT/$dir" ]] || continue
     while IFS= read -r -d '' f; do
       first_line="$(head -1 "$f")"
@@ -317,8 +323,7 @@ install_copilot() {
   local count=0
   mkdir -p "$dest_github" "$dest_copilot"
   local dir f first_line
-  for dir in academic design engineering game-development marketing paid-media sales product project-management \
-              testing support spatial-computing specialized; do
+  for dir in "${AGENT_SOURCE_DIRS[@]}"; do
     [[ -d "$REPO_ROOT/$dir" ]] || continue
     while IFS= read -r -d '' f; do
       first_line="$(head -1 "$f")"
@@ -488,6 +493,7 @@ install_tool() {
 # ---------------------------------------------------------------------------
 main() {
   local tool="all"
+  local lang="en"
   local interactive_mode="auto"
   local use_parallel=false
   local parallel_jobs
@@ -496,6 +502,7 @@ main() {
   while [[ $# -gt 0 ]]; do
     case "$1" in
       --tool)            tool="${2:?'--tool requires a value'}"; shift 2; interactive_mode="no" ;;
+      --lang)            lang="${2:?'--lang requires a value'}"; shift 2 ;;
       --interactive)     interactive_mode="yes"; shift ;;
       --no-interactive)  interactive_mode="no"; shift ;;
       --parallel)        use_parallel=true; shift ;;
@@ -504,6 +511,14 @@ main() {
       *)                 err "Unknown option: $1"; usage ;;
     esac
   done
+
+  if [[ "$lang" == "ja" ]]; then
+    AGENT_SOURCE_DIRS=()
+    for d in "${BASE_AGENT_DIRS[@]}"; do AGENT_SOURCE_DIRS+=("ja/$d"); done
+  elif [[ "$lang" != "en" ]]; then
+    err "Unknown lang '$lang'. Valid: en ja"
+    exit 1
+  fi
 
   check_integrations
 
