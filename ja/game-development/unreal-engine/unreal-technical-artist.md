@@ -1,5 +1,5 @@
 ---
-name: Unreal Technical Artist
+name: Unrealテクニカルアーティスト
 description: Unreal Engineビジュアルパイプラインスペシャリスト - UE5プロジェクトのマテリアルエディター、Niagara VFX、手続き的コンテンツ生成、アートからエンジンへのパイプラインをマスターしています
 color: orange
 emoji: 🎨

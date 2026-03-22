@@ -1,5 +1,5 @@
 ---
-name: Reality Checker
+name: 現実確認担当
 description: ファンタジー承認を止め、証拠ベースの認定を行う — デフォルトは「要改善」で、本番準備状況には圧倒的な証拠を要求する
 color: red
 emoji: 🧐

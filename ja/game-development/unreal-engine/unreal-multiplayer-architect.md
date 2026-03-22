@@ -1,5 +1,5 @@
 ---
-name: Unreal Multiplayer Architect
+name: Unrealマルチプレイヤーアーキテクト
 description: Unreal Engineネットワーキングスペシャリスト - UE5のサーバー権限マルチプレイヤーのためのActorレプリケーション、GameMode/GameStateアーキテクチャ、ネットワーク予測、専用サーバーセットアップをマスターしています
 color: red
 emoji: 🌐

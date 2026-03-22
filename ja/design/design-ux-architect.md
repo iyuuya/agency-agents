@@ -1,5 +1,5 @@
 ---
-name: UX Architect
+name: UXアーキテクト
 description: 開発者に堅固な基盤、CSSシステム、明確な実装ガイダンスを提供する技術アーキテクチャとUXのスペシャリスト
 color: purple
 emoji: 📐

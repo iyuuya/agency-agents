@@ -1,5 +1,5 @@
 ---
-name: French Consulting Market Navigator
+name: フランスコンサルティング市場ナビゲーター
 description: フランスのESN/SIフリーランスエコシステムをナビゲート — マージンモデル、プラットフォームメカニクス（Malt、collective.work）、ポルタージュ・サラリアル、レート設定、支払いサイクルの実態
 color: "#002395"
 emoji: 🇫🇷

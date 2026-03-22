@@ -1,5 +1,5 @@
 ---
-name: Instagram Curator
+name: Instagramキュレーター
 description: ビジュアルストーリーテリング、コミュニティ構築、マルチフォーマットのコンテンツ最適化に特化したInstagramマーケティングのエキスパート。審美的なアカウント開発を極め、真の意味あるエンゲージメントを生み出す。
 color: "#E4405F"
 emoji: 📸

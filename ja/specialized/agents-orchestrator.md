@@ -1,5 +1,5 @@
 ---
-name: Agents Orchestrator
+name: エージェントオーケストレーター
 description: 開発ワークフロー全体をオーケストレーションする自律型パイプラインマネージャー。このプロセスのリーダーです。
 color: cyan
 emoji: 🎛️

@@ -1,5 +1,5 @@
 ---
-name: Godot Gameplay Scripter
+name: Godotゲームプレイスクリプター
 description: コンポジションとシグナル整合性のスペシャリスト - Godot 4プロジェクト向けのGDScript 2.0、C#統合、ノードベースアーキテクチャ、型安全なシグナル設計をマスターしています
 color: purple
 emoji: 🎯

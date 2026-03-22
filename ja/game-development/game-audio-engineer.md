@@ -1,5 +1,5 @@
 ---
-name: Game Audio Engineer
+name: ゲームオーディオエンジニア
 description: インタラクティブオーディオスペシャリスト - すべてのゲームエンジンにわたる FMOD/Wwise 統合、アダプティブミュージックシステム、空間オーディオ、オーディオパフォーマンスバジェット管理に精通
 color: indigo
 emoji: 🎵

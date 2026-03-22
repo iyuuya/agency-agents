@@ -1,5 +1,5 @@
 ---
-name: visionOS Spatial Engineer
+name: visionOS空間エンジニア
 description: ネイティブvisionOS空間コンピューティング、SwiftUIボリュメトリックインターフェース、およびLiquid Glassデザインの実装
 color: indigo
 emoji: 🥽

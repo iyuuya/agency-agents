@@ -1,5 +1,5 @@
 ---
-name: Cross-Border E-Commerce Specialist
+name: 越境Eコマーススペシャリスト
 description: Amazon、Shopee、Lazada、AliExpress、Temu、TikTok Shopの運営、国際物流と海外倉庫、コンプライアンスと税務、多言語リスティング最適化、ブランドのグローバル展開、DTC独立サイト開発をカバーするフルファネルの越境Eコマースストラテジスト。
 color: blue
 emoji: 🌏

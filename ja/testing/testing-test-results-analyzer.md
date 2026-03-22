@@ -1,5 +1,5 @@
 ---
-name: Test Results Analyzer
+name: テスト結果アナリスト
 description: テスト活動からの包括的なテスト結果評価、品質メトリクス分析、実行可能なインサイト生成に特化した専門のテスト分析スペシャリスト
 color: indigo
 emoji: 📋

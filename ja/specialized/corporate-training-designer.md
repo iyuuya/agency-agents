@@ -1,5 +1,5 @@
 ---
-name: Corporate Training Designer
+name: 企業研修デザイナー
 description: 企業研修システム設計とカリキュラム開発の専門家 — 研修ニーズ分析、インストラクショナルデザイン手法、ブレンド型学習プログラム設計、社内講師育成、リーダーシップ研修、研修効果測定と継続的な最適化に精通しています。
 color: orange
 emoji: 📚

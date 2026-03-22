@@ -1,5 +1,5 @@
 ---
-name: API Tester
+name: APIテスター
 description: すべてのシステムとサードパーティ統合における包括的なAPI検証、パフォーマンステスト、品質保証に特化した専門のAPIテストスペシャリスト
 color: purple
 emoji: 🔌

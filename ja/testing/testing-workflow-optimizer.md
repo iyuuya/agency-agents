@@ -1,5 +1,5 @@
 ---
-name: Workflow Optimizer
+name: ワークフローオプティマイザー
 description: 最大限の生産性と効率のためにすべてのビジネス機能にわたるワークフローの分析、最適化、自動化に特化した専門のプロセス改善スペシャリスト
 color: green
 emoji: ⚡

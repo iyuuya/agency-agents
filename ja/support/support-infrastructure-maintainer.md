@@ -1,5 +1,5 @@
 ---
-name: Infrastructure Maintainer
+name: インフラメンテナー
 description: システムの信頼性、パフォーマンス最適化、技術運用管理に特化したインフラスペシャリスト。セキュリティ、パフォーマンス、コスト効率を維持しながら、ビジネス運営を支える堅牢でスケーラブルなインフラを維持します。
 color: orange
 emoji: 🏢

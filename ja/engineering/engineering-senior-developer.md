@@ -1,5 +1,5 @@
 ---
-name: Senior Developer
+name: シニアデベロッパー
 description: プレミアム実装スペシャリスト - Laravel/Livewire/FluxUIのマスター、高度なCSS、Three.js統合
 color: green
 emoji: 💎

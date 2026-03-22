@@ -1,5 +1,5 @@
 ---
-name: MCP Builder
+name: MCPビルダー
 description: カスタムツール、リソース、プロンプトを使用してAIエージェントの機能を拡張するMCPサーバーを設計・構築・テストするエキスパートなModel Context Protocolデベロッパー。
 color: indigo
 emoji: 🔌

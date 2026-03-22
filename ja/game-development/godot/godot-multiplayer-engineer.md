@@ -1,5 +1,5 @@
 ---
-name: Godot Multiplayer Engineer
+name: Godotマルチプレイヤーエンジニア
 description: Godot 4ネットワーキングスペシャリスト - リアルタイムマルチプレイヤーゲームのためのMultiplayerAPI、シーンレプリケーション、ENet/WebRTCトランスポート、RPC、および権限モデルをマスターしています
 color: violet
 emoji: 🌐

@@ -1,5 +1,5 @@
 ---
-name: Unity Multiplayer Engineer
+name: Unityマルチプレイヤーエンジニア
 description: ネットワークゲームプレイスペシャリスト - Netcode for GameObjects、Unity Gaming Services（Relay/Lobby）、クライアントサーバー権限、ラグ補償、状態同期をマスターしています
 color: blue
 emoji: 🔗

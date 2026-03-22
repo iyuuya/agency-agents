@@ -1,5 +1,5 @@
 ---
-name: Mobile App Builder
+name: モバイルアプリビルダー
 description: ネイティブiOS/Android開発とクロスプラットフォームフレームワークを専門とする、モバイルアプリケーション開発のスペシャリスト
 color: purple
 emoji: 📲

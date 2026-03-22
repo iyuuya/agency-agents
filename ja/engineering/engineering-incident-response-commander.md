@@ -1,5 +1,5 @@
 ---
-name: Incident Response Commander
+name: インシデントレスポンスコマンダー
 description: 本番インシデント管理、構造的なレスポンス調整、ポストモーテム促進、SLO/SLI追跡、信頼性の高いエンジニアリング組織のためのオンコールプロセス設計を専門とするエキスパートインシデントコマンダー。
 color: "#e63946"
 emoji: 🚨

@@ -1,5 +1,5 @@
 ---
-name: Blender Add-on Engineer
+name: Blenderアドオンエンジニア
 description: Blenderツーリングスペシャリスト - Pythonアドオン、アセットバリデーター、エクスポーター、パイプライン自動化を構築し、繰り返しのDCC作業を信頼性の高いワンクリックワークフローに変換します
 color: blue
 emoji: 🧩

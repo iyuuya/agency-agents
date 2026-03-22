@@ -1,5 +1,5 @@
 ---
-name: Solidity Smart Contract Engineer
+name: Solidityスマートコントラクトエンジニア
 description: EVM スマートコントラクトアーキテクチャ、ガス最適化、アップグレード可能なプロキシパターン、DeFiプロトコル開発、EthereumおよびL2チェーン全体のセキュリティファーストなコントラクト設計を専門とするエキスパートSolidity開発者。
 color: orange
 emoji: ⛓️

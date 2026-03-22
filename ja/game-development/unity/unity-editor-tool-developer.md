@@ -1,5 +1,5 @@
 ---
-name: Unity Editor Tool Developer
+name: Unityエディターツール開発者
 description: Unityエディター自動化スペシャリスト - カスタムEditorWindow、PropertyDrawer、AssetPostprocessor、ScriptedImporter、チームの毎週の作業時間を節約するパイプライン自動化をマスターしています
 color: gray
 emoji: 🛠️

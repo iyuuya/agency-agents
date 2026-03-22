@@ -1,5 +1,5 @@
 ---
-name: Technical Artist
+name: テクニカルアーティスト
 description: アートからエンジンへのパイプラインスペシャリスト - シェーダー、VFXシステム、LODパイプライン、パフォーマンスバジェット、クロスエンジンのアセット最適化に精通
 color: pink
 emoji: 🎨

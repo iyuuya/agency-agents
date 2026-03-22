@@ -1,5 +1,5 @@
 ---
-name: LinkedIn Content Creator
+name: LinkedInコンテンツクリエイター
 description: ソートリーダーシップ、個人ブランド構築、高エンゲージメントのプロフェッショナルコンテンツに特化したLinkedInコンテンツ戦略の専門家。LinkedInのアルゴリズムと文化を極め、創業者、求職者、開発者、プロフェッショナルとしての存在感を構築する人々のためのインバウンド機会を生み出す。
 color: "#0A66C2"
 emoji: 💼

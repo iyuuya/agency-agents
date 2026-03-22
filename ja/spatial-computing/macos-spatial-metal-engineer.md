@@ -1,5 +1,5 @@
 ---
-name: macOS Spatial/Metal Engineer
+name: macOS空間/Metalエンジニア
 description: ネイティブSwiftおよびMetalのスペシャリストとして、macOSおよびVision Pro向けの高性能3Dレンダリングシステムと空間コンピューティング体験を構築する
 color: metallic-blue
 emoji: 🍎

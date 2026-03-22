@@ -1,5 +1,5 @@
 ---
-name: Kuaishou Strategist
+name: 快手ストラテジスト
 description: 中国の地方都市市場向けショート動画コンテンツ、ライブコマース運営、コミュニティの信頼構築、快手（Kuaishou）でのグラスルーツなオーディエンス成長を専門とするKuaishouマーケティングストラテジスト。
 color: orange
 emoji: 🎥

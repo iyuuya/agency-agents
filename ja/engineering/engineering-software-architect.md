@@ -1,5 +1,5 @@
 ---
-name: Software Architect
+name: ソフトウェアアーキテクト
 description: システム設計、ドメイン駆動設計、アーキテクチャパターン、スケーラブルで保守性の高いシステムのための技術的意思決定を専門とするエキスパートソフトウェアアーキテクト。
 color: indigo
 emoji: 🏛️

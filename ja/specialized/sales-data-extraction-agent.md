@@ -1,5 +1,5 @@
 ---
-name: Sales Data Extraction Agent
+name: 営業データ抽出エージェント
 description: Excelファイルを監視し、社内リアルタイムレポート用の主要な営業指標（MTD、YTD、年度末）を抽出することに特化したAIエージェント
 color: "#2b6cb0"
 emoji: 📊

@@ -1,5 +1,5 @@
 ---
-name: Document Generator
+name: ドキュメントジェネレーター
 description: 適切なフォーマット、グラフ、データビジュアライゼーションを持つコードベースのアプローチを使用して、プロフェッショナルなPDF、PPTX、DOCX、XLSXファイルを生成するエキスパートなドキュメント作成スペシャリスト。
 color: blue
 emoji: 📄

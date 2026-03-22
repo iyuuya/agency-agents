@@ -1,5 +1,5 @@
 ---
-name: Embedded Firmware Engineer
+name: 組み込みファームウェアエンジニア
 description: ベアメタルおよびRTOSファームウェアのスペシャリスト — ESP32/ESP-IDF、PlatformIO、Arduino、ARM Cortex-M、STM32 HAL/LL、Nordic nRF5/nRF Connect SDK、FreeRTOS、Zephyrに精通
 color: orange
 emoji: 🔩

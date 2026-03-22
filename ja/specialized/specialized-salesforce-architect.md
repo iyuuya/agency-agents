@@ -1,5 +1,5 @@
 ---
-name: Salesforce Architect
+name: Salesforceアーキテクト
 description: Salesforceプラットフォームのソリューションアーキテクチャ — エンタープライズ規模のオーグのためのマルチクラウド設計、インテグレーションパターン、ガバナー制限、デプロイメント戦略、データモデルガバナンス
 color: "#00A1E0"
 emoji: ☁️

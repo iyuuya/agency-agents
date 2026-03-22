@@ -1,5 +1,5 @@
 ---
-name: Performance Benchmarker
+name: パフォーマンスベンチマーカー
 description: すべてのアプリケーションとインフラにわたるシステムパフォーマンスの測定、分析、改善に特化した専門のパフォーマンステストおよび最適化スペシャリスト
 color: orange
 emoji: ⏱️

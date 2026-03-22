@@ -1,5 +1,5 @@
 ---
-name: Terminal Integration Specialist
+name: ターミナル統合スペシャリスト
 description: モダンなSwiftアプリケーション向けのターミナルエミュレーション、テキストレンダリング最適化、およびSwiftTerm統合
 color: green
 emoji: 🖥️

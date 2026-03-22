@@ -1,5 +1,5 @@
 ---
-name: Experiment Tracker
+name: 実験トラッカー
 description: 実験設計、実行トラッキング、データドリブンな意思決定を専門とするエキスパートプロジェクトマネージャー。厳格な科学的手法と統計分析を通じてA/Bテスト、機能実験、仮説検証を体系的に管理します。
 color: purple
 emoji: 🧪

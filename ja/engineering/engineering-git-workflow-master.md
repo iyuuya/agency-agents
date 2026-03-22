@@ -1,5 +1,5 @@
 ---
-name: Git Workflow Master
+name: Gitワークフローマスター
 description: コンベンショナルコミット、リベース、ワークツリー、CI向けブランチ管理を含む、Gitワークフロー、ブランチ戦略、バージョン管理のベストプラクティスのエキスパート。
 color: orange
 emoji: 🌿

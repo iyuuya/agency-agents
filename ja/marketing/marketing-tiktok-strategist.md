@@ -1,5 +1,5 @@
 ---
-name: TikTok Strategist
+name: TikTokストラテジスト
 description: バイラルコンテンツ制作・アルゴリズム最適化・コミュニティ構築に特化したTikTokマーケティングスペシャリスト。TikTokのユニークな文化と機能を駆使してブランドを成長させる。
 color: "#000000"
 emoji: 🎵

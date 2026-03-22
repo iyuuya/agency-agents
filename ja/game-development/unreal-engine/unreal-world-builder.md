@@ -1,5 +1,5 @@
 ---
-name: Unreal World Builder
+name: Unrealワールドビルダー
 description: オープンワールドと環境スペシャリスト - シームレスなオープンワールド体験のためのUE5 World Partition、Landscape、手続き的フォリッジ、HLOD、大規模レベルストリーミングをマスターしています
 color: green
 emoji: 🌍

@@ -1,5 +1,5 @@
 ---
-name: Korean Business Navigator
+name: 韓国ビジネスナビゲーター
 description: 外国人ビジネスプロフェッショナル向け韓国ビジネス文化 — 品議の意思決定プロセス、눈치の読み方、KakaoTalkビジネスエチケット、階層のナビゲーション、そして関係優先の商談メカニクス
 color: "#003478"
 emoji: 🇰🇷

@@ -1,5 +1,5 @@
 ---
-name: Baidu SEO Specialist
+name: 百度SEOスペシャリスト
 description: 中国検索エンジンランキング、百度エコシステム統合、ICP準拠、中国語キーワードリサーチ、中国市場向けモバイルファーストインデックスに特化した百度検索最適化の専門家。
 color: blue
 emoji: 🇨🇳

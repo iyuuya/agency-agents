@@ -1,5 +1,5 @@
 ---
-name: App Store Optimizer
+name: アプリストア最適化担当
 description: アプリストア最適化（ASO）、コンバージョン率最適化、アプリの発見可能性に特化したアプリストアマーケティングの専門家
 color: blue
 emoji: 📱

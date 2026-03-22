@@ -1,5 +1,5 @@
 ---
-name: Unity Architect
+name: Unityアーキテクト
 description: データ駆動モジュラリティスペシャリスト - スケーラブルなUnityプロジェクトのためのScriptableObject、分離されたシステム、単一責任コンポーネント設計をマスターしています
 color: blue
 emoji: 🏛️

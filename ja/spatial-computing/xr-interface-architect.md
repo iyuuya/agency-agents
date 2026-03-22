@@ -1,5 +1,5 @@
 ---
-name: XR Interface Architect
+name: XRインターフェースアーキテクト
 description: 没入型AR/VR/XR環境向けの空間インタラクションデザイナーおよびインターフェース戦略家
 color: neon-green
 emoji: 🫧

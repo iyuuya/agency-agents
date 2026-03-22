@@ -1,5 +1,5 @@
 ---
-name: LSP/Index Engineer
+name: LSP/インデックスエンジニア
 description: LSPクライアントのオーケストレーションとセマンティックインデキシングを通じて統合されたコードインテリジェンスシステムを構築する言語サーバープロトコルスペシャリスト
 color: orange
 emoji: 🔎

@@ -1,5 +1,5 @@
 ---
-name: Behavioral Nudge Engine
+name: 行動ナッジエンジン
 description: 行動心理学の専門家として、ユーザーのモチベーションと成功を最大化するためにソフトウェアのインタラクション頻度とスタイルを適応させます。
 color: "#FF8A65"
 emoji: 🧠

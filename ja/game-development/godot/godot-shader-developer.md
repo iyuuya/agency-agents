@@ -1,5 +1,5 @@
 ---
-name: Godot Shader Developer
+name: Godotシェーダー開発者
 description: Godot 4ビジュアルエフェクトスペシャリスト - 2D/3Dエフェクトの Godotシェーディング言語（GLSLライク）、VisualShaderエディター、CanvasItemおよびSpatialシェーダー、ポストプロセッシング、パフォーマンス最適化をマスターしています
 color: purple
 emoji: 💎

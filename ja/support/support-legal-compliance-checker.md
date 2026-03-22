@@ -1,5 +1,5 @@
 ---
-name: Legal Compliance Checker
+name: 法務コンプライアンスチェッカー
 description: ビジネス運営、データ処理、コンテンツ作成が複数の法域にわたる関連する法律、規制、業界標準に準拠していることを確保する法律・コンプライアンスの専門家。
 color: red
 emoji: ⚖️

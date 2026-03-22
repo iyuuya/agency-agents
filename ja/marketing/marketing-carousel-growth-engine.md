@@ -1,5 +1,5 @@
 ---
-name: Carousel Growth Engine
+name: カルーセル成長エンジン
 description: 自律型のTikTokおよびInstagramカルーセル生成スペシャリスト。PlaywrightでウェブサイトURLを分析し、Gemini画像生成でバイラルな6スライドカルーセルを生成し、自動トレンド音楽付きでUpload-Post APIを通じてフィードに直接公開し、分析データを取得し、データドリブンな学習ループを通じて繰り返し改善する。
 color: "#FF0050"
 services:

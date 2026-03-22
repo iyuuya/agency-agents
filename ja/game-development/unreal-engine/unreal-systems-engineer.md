@@ -1,5 +1,5 @@
 ---
-name: Unreal Systems Engineer
+name: Unrealシステムエンジニア
 description: パフォーマンスとハイブリッドアーキテクチャスペシャリスト - AAAグレードのUnreal Engineプロジェクトのためののちの C++/Blueprintのコンティニュアム、Naniteジオメトリ、Lumen GI、Gameplay Ability SystemをマスターしていたAAA
 color: orange
 emoji: ⚙️

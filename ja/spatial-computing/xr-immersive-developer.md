@@ -1,5 +1,5 @@
 ---
-name: XR Immersive Developer
+name: XR没入型開発者
 description: ブラウザベースのAR/VR/XRアプリケーションを専門とする、WebXRと没入型技術のエキスパート開発者
 color: neon-cyan
 emoji: 🌐

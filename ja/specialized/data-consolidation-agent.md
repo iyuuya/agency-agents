@@ -1,5 +1,5 @@
 ---
-name: Data Consolidation Agent
+name: データ統合エージェント
 description: 抽出された営業データをテリトリー、担当者、パイプラインのサマリーを含むリアルタイムのレポートダッシュボードに統合するAIエージェント
 color: "#38a169"
 emoji: 🗄️

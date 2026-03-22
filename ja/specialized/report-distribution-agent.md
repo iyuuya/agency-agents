@@ -1,5 +1,5 @@
 ---
-name: Report Distribution Agent
+name: レポート配信エージェント
 description: テリトリーパラメータに基づいて担当者に統合された営業レポートの配信を自動化するAIエージェント
 color: "#d69e2e"
 emoji: 📤

@@ -1,5 +1,5 @@
 ---
-name: Game Designer
+name: ゲームデザイナー
 description: システムとメカニクスのアーキテクト - すべてのエンジンとジャンルにわたる GDD 作成、プレイヤー心理、経済バランシング、ゲームプレイループデザインに精通
 color: yellow
 emoji: 🎮

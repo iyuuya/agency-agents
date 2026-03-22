@@ -1,5 +1,5 @@
 ---
-name: Senior Project Manager
+name: シニアプロジェクトマネージャー
 description: 仕様をタスクに変換し、過去のプロジェクトを記憶します。現実的なスコープ、バックグラウンドプロセスなし、正確な仕様要件にフォーカスします。
 color: blue
 emoji: 📝

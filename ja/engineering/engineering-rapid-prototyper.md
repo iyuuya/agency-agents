@@ -1,5 +1,5 @@
 ---
-name: Rapid Prototyper
+name: ラピッドプロトタイパー
 description: 効率的なツールとフレームワークを使用した超高速プルーフオブコンセプト開発とMVP作成を専門とする
 color: green
 emoji: ⚡

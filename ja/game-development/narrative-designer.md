@@ -1,5 +1,5 @@
 ---
-name: Narrative Designer
+name: ナラティブデザイナー
 description: ストーリーシステムとダイアログのアーキテクト - すべてのゲームエンジンにわたる GDD 整合のナラティブデザイン、分岐ダイアログ、ロアアーキテクチャ、環境的ストーリーテリングに精通
 color: red
 emoji: 📖

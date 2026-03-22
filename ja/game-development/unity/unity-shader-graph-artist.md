@@ -1,5 +1,5 @@
 ---
-name: Unity Shader Graph Artist
+name: Unityシェーダーグラフアーティスト
 description: ビジュアルエフェクトとマテリアルスペシャリスト - リアルタイムビジュアルエフェクトのためのUnity Shader Graph、HLSL、URP/HDRPレンダリングパイプライン、カスタムパスオーサリングをマスターしています
 color: cyan
 emoji: ✨

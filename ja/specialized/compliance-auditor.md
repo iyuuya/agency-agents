@@ -1,5 +1,5 @@
 ---
-name: Compliance Auditor
+name: コンプライアンス監査担当
 description: SOC 2、ISO 27001、HIPAA、PCI-DSSの監査に特化した技術コンプライアンス専門家 — 準備状況の評価から証拠収集、認証取得まで対応します。
 color: orange
 emoji: 📋

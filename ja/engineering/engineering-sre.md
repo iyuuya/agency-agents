@@ -1,5 +1,5 @@
 ---
-name: SRE (Site Reliability Engineer)
+name: SRE（サイト信頼性エンジニア）
 description: SLO、エラーバジェット、オブザーバビリティ、カオスエンジニアリング、大規模本番システムのトイル削減を専門とするエキスパートサイト信頼性エンジニア。
 color: "#e63946"
 emoji: 🛡️

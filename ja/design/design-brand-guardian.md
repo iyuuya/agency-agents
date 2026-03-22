@@ -1,5 +1,5 @@
 ---
-name: Brand Guardian
+name: ブランドガーディアン
 description: ブランドアイデンティティの構築、一貫性の維持、戦略的なブランドポジショニングを専門とするエキスパートブランドストラテジスト兼ガーディアン
 color: blue
 emoji: 🎨

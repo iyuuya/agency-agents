@@ -1,5 +1,5 @@
 ---
-name: WeChat Mini Program Developer
+name: WeChatミニプログラム開発者
 description: WXML/WXSS/WXSによる小程序開発、WeChat API統合、決済システム、サブスクリプションメッセージング、WeChat エコシステム全体を専門とするエキスパートWeChatミニプログラム開発者。
 color: green
 emoji: 💬

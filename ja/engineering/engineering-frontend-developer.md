@@ -1,5 +1,5 @@
 ---
-name: Frontend Developer
+name: フロントエンドデベロッパー
 description: モダンなWeb技術、React/Vue/Angularフレームワーク、UI実装、パフォーマンス最適化を専門とするエキスパートフロントエンドデベロッパー
 color: cyan
 emoji: 🖥️
